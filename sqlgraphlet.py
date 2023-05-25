@@ -417,7 +417,7 @@ if __name__ == "__main__":
 	time3_2 = enumerate_wedges_T3(k)
 	print("Total Wedge_T3 (u,v,z) enum time is " +str(time3_2))
 	time3_3 = enumerate_wedges_T4(k)
-	print("Total Wedge_T4 (w,z,u) enum time is " +str(time3-3))
+	print("Total Wedge_T4 (w,z,u) enum time is " +str(time3_3))
 	print(" ")
 	
 	#---------------- Intuitive Graphlets ---------------#
