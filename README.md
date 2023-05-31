@@ -1,6 +1,6 @@
 # Parallel Pattern Enumeration in Large Graphs 
 
-Graphlet enumeration is a fundamental task in graph exploration and analysis. It has many real-life applications including biology and transportation. In this work, we presents a novel approach to extracting these patterns with SQL queries, in a distributed fashion. Our solution aims to enumerate all the emnbadded graphlets by stages. First, we enumerate all the possible wedges, the we use them to enumerate the intuitive patterns that include 3-Paths, 3-Star and rectangle. These latters are used to enumerate the derived graphlets, with includes tailed triangles, diamonds and cliques. 
+Graphlet enumeration is a fundamental task in graph exploration and analysis. It has many real-life applications including biology and transportation. In this work, we presents a novel approach to extracting these patterns with SQL queries, in a distributed fashion. Our solution aims to enumerate all the emnbadded graphlets by stages. First, we enumerate all the possible wedges, then we use them to enumerate the intuitive patterns that include 3-Paths, 3-Star and rectangle. These patterns are used to enumerate the derived graphlets, with includes tailed triangles, diamonds and cliques. 
 
 ![Screenshot](graphlets.png)
 
@@ -59,7 +59,7 @@ To investigate the content of these tables, the following query can be used:
 table_name can be replaced with the name of the table, for example:
 
 <code>SELECT machine, count(\*) from Rectangle group by machine;</code>
- 
+
 ## Software license agreement
 
 Details the license agreement of BSD: [LICENSE](LICENSE)
