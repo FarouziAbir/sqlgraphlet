@@ -52,6 +52,14 @@ Our results contain two classes:
 	6. The table Diamond.
 	7. The table Clique.
 
+To investigate the content of these tables, the following query can be used:
+
+<code>SELECT machine, count(\*) from table_name group by machine;</code>
+
+table_name can be replaced with the name of the table, for example:
+
+<code>SELECT machine, count(\*) from Rectangle group by machine;</code>
+ 
 ## Software license agreement
 
 Details the license agreement of BSD: [LICENSE](LICENSE)
@@ -59,7 +67,7 @@ Details the license agreement of BSD: [LICENSE](LICENSE)
 ## Historic Contributors (core developers first followed by alphabetical order)
 
 * [Abir FAROUZI (core developer)](https://www.lias-lab.fr/fr/members/abirfarouzi/) (ESI-SBA and LIAS/ISAE-ENSMA)
-* [Xiantian ZHOU](https://www2.cs.uh.edu/~xzhou/) (LIAS/ISAE-ENSMA)
+* [Xiantian ZHOU](https://www2.cs.uh.edu/~xzhou/) (University of Houston)
 * [Ladjel BELLATRECHE](https://www.lias-lab.fr/fr/members/bellatreche/) (LIAS/ISAE-ENSMA)
-* [Mimoun MALKI](https://www.esi-sba.dz/fr/index.php/personnel/malki-mimoun/) (LIAS/ISAE-ENSMA)
-* [Carlos ORDONEZ](https://www2.cs.uh.edu/~ordonez/) (LIAS/ISAE-ENSMA)
+* [Mimoun MALKI](https://www.esi-sba.dz/fr/index.php/personnel/malki-mimoun/) (ESI-SBA)
+* [Carlos ORDONEZ](https://www2.cs.uh.edu/~ordonez/) (University of Houston)
