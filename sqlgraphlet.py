@@ -391,11 +391,21 @@ if __name__ == "__main__":
 		print("Database connection error")
 		sys.exit()
 	
-	#Argument reading (input)	
-	graph_file = sys.argv[1]
-	delimiter = sys.argv[2]
-	k = sys.argv[3]
-	c = sys.argv[4]
+	#Reading input
+	inputs = sys.argv[1]
+	param = inputs.split(',')
+	print(len(param))
+	print(inputs)
+	if (len(param)!=4):
+		print("please insert the correct arguement as defined in the documentation:")
+		print(">> python sqlgraphlet.py file=/link/to/file,delimiter=[tab|comma|space],machine=k,color=c")
+		sys.exit()
+	else:
+		graph_file = param[0].split('=')[1]
+		delimiter = param[1].split('=')[1]
+		k = param[2].split('=')[1] 
+		c = param[3].split('=')[1]
+
 	time = 0
 	
 	#Graph reading
