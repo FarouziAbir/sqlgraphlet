@@ -64,7 +64,13 @@ table_name can be replaced with the name of the table, for example:
 
 Details the license agreement of BSD: [LICENSE](LICENSE)
 
-## Historic Contributors (core developers first followed by alphabetical order)
+## Citation
+
+Please use the following reference to cite our work:
+
+Abir Farouzi, Xiantian Zhou, Ladjel Bellareche, Mimoun Malki, & Carlos Ordonez. (2023). Parallel Pattern Enumeration in Large Graphs. In the 34th International Conference on Database and Expert Systems Applications (DEXA 2023).
+
+## Historic Contributors (core developers first)
 
 * [Abir FAROUZI (core developer)](https://www.lias-lab.fr/fr/members/abirfarouzi/) (ESI-SBA and LIAS/ISAE-ENSMA)
 * [Xiantian ZHOU](https://www2.cs.uh.edu/~xzhou/) (University of Houston)
