@@ -29,15 +29,15 @@ In our work, we used different data sets from [snap](https://snap.stanford.edu/d
 ### Execution
 On a terminal, use the following command to execute the code:
 
-<code>python sqlgraphlet.py file=/link/to/graph_file;delimiter=delimiter;machines=k;colors=c</code>
+<code>python sqlgraphlet.py file=/link/to/graph_file,delimiter=[tab|comma|space],machines=k,colors=c</code>
 
-The delimiter can be comma, space or tab
+The delimiter can be comma, space or tab.
 
-The number of machines (machines) should be (colors)^2, (colors)^3 or (colors)^4
+The number of machines (machines) should be (colors)^2, (colors)^3 or (colors)^4.
 
 For example, we can use 2 colors on a cluster of 8 machines. Hence, we can use the following code to execute the program on DBLP data set:
 
-<code>python sqlgraphlet.py file=DBLP.txt;delimiter=tab;machine=8;colors=2</code>
+<code>python sqlgraphlet.py file=/home/username/DBLP.txt;delimiter=tab;machine=8;colors=2</code>
 
 ## Results
 
